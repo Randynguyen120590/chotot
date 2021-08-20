@@ -1,0 +1,273 @@
+@media (min-width: 1024px) {
+    .slider {
+        display: block;
+    }
+    .column {
+        border-bottom: 1px solid rgb(244, 244, 244);
+        border-right: 1px solid rgb(244, 244, 244);
+    }
+
+}
+
+/* Mobile and tablet*/
+@media (max-width: 1023px) {
+  
+}
+/* Ipad Pro*/
+@media(min-width: 1024px) and (max-width: 1239px) {
+    .column {
+        border-bottom: 1px solid rgb(244, 244, 244);
+        border-right: 1px solid rgb(244, 244, 244);
+    }
+    .box-notification {
+        right: 150px;  
+    }
+    .box-information {
+        right: 40px;
+    }
+  
+
+}
+/* Tablet*/
+@media (min-width: 740px) and (max-width: 1023px) {
+    .column {
+        border-bottom: 1px solid rgb(244, 244, 244);
+        border-right: 1px solid rgb(244, 244, 244);
+    }
+    .header {
+        padding: 0 10px;
+    }
+    .search-input {
+        width: 400px;
+    }
+    .search-imge {
+        padding-left: 50px;
+    }
+    .box-notification {
+        right: 140px;
+       
+    }
+    .box-information {
+        right: 20px;
+    }
+    /* Section Container*/
+    .container {
+        height: 3040px;
+    }
+    .slider-imge {
+        width: 768px;
+    }
+    .category {
+        height: 600px;
+    }
+    .category-item {
+        padding: 10px 10px;
+    }
+    .category-content {
+        display: block;
+    }
+    .introduce {
+        height: 530px;
+    }
+    .footer-about {
+        padding: 20px 10px 0 10px;
+    }
+}
+
+
+/* Mobile*/
+@media (max-width: 739px) {
+    .hidden-mb {
+        display: none;
+    }
+    .header-top {
+        display: block;
+        text-align: center;
+    }
+    .menu-mobile-bar {
+        display: block;
+    }
+    .header-bottom {
+        padding: 0 10px;
+    }
+    .search {
+        width: 100%;
+    }
+     /* Section Container*/
+    .category {
+        height: 800px;
+    }
+    .category-item {
+        padding: 10px 0;
+    }
+    .category-content {
+        display: block;
+    }
+    .column {
+        border-bottom: 1px solid rgb(244, 244, 244);
+        border-right: 1px solid rgb(244, 244, 244);
+        border-left: 1px solid rgb(244, 244, 244);
+    }
+    .introduce {
+        height: auto;
+    }
+    .support-about {
+        padding: 10px;
+    }
+}
+/*Small Tablet*/
+@media (min-width: 539px) and (max-width: 719px) {
+    
+   
+}
+/*Small Tablet*/
+@media (max-width: 610px) {
+    .search-input {
+        width: 480px;
+    }
+    .container {
+        height: 2765px;
+    }
+    .slider-imge {
+        width: 600px;
+    }
+}
+
+/*Small Tablet*/
+@media (max-width: 541px) {
+    .container {
+        height: 2735px;
+    }
+    .search-input {
+        width: 420px;
+    }
+    .slider {
+        width: 100%;
+        height: 250px;
+    }
+    .slider-top {
+        height: 200px;
+    }
+    .slider-imge {
+        width: 540px;
+        height: 200px;
+    }
+    .title-content {
+        font-size: 15px;
+    }
+    .footer {
+        height: 400px;
+      }
+}
+
+/* Iphone 6,7,8, plus*/
+@media (max-width: 415px) {
+    .search-imge {
+        padding-left: 70px;
+    }
+    .search-input {
+        width: 300px;
+    }
+    .container {
+        height: 2850px;
+    }
+    .slider {
+        width: 100%;
+        height: 170px;
+    }
+    .slider-top {
+        height: 120px;
+    }
+    .slider-imge {
+        width: 414px;
+        height: auto;
+    }
+    .footer {
+        height: 380px;
+      }
+
+}
+/* Pixel*/
+@media (max-width: 412px) {
+    .container {
+        height: 2870px;
+    }
+   .slider-imge {
+    width: 411px;
+    height: auto;
+  }
+  .title-content {
+    font-size: 16px;
+    line-height: 24px;
+ }
+ .footer {
+    height: 380px;
+  }
+
+}
+
+
+/* Iphone 6,7,8, X*/
+@media (max-width: 410px) {
+    .search-input {
+        width: 260px;
+    }
+    .container {
+        height: 2960px;
+    }
+    .slider {
+        width: 100%;
+        height: 160px;
+    }
+    .slider-top {
+        height: 110px;
+    }
+    .slider-imge {
+        width: 375px;
+        height: auto;
+    }
+ 
+ 
+}
+
+/*Galaxy S5, Moto G4*/
+@media (max-width: 361px) {
+    .container {
+        height: 3070px;
+    }
+    .search-input {
+        width: 250px;
+    }
+    .slider-imge {
+        width: 360px;
+        height: auto;
+    }
+}
+
+
+/* Iphone 5*/
+@media (max-width: 320px) {
+    .container {
+        height: 3200px;
+    }
+    .slider {
+        width: 100%;
+        height: 140px;
+    }
+    .slider-top {
+        height: 95px;
+    }
+
+    .search-input {
+        width: 210px;
+    }
+    .slider-imge {
+        width: 320px;
+        height: auto;
+    }
+    .title-content {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+}
