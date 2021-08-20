@@ -254,15 +254,23 @@
  
  
 }
-
-/*LG opimus L70*/
+/*Nexus 4 */
 @media (max-width: 385px) {
-    .slider-imge {
-        width: 384px;
-        height: auto;
-    }
     .container {
         height: 2940px;
+    }
+    .slider-imge {
+        width: 384px;
+    }
+}
+
+/*iphone 6,7,8, X */
+@media (max-width: 376px) {
+    .slider-imge {
+        width: 375px;
+    }
+    .container {
+        height: 2960px;
     }
 }
 
