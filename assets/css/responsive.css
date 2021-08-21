@@ -274,8 +274,12 @@
 
 /* Mobile 400px*/
 @media (max-width: 405px) {
+    .slider-imge {
+        width: 400px;
+        height: auto;
+    }
     .container {
-        height: 2940px;
+        height: 2880px;
     }
 }
 
