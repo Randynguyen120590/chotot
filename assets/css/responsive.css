@@ -51,9 +51,6 @@
         right: 20px;
     }
     /* Section Container*/
-    .container {
-        height: 3040px;
-    }
     .slider-imge {
         width: 768px;
     }
@@ -125,9 +122,6 @@
     .search-input {
         width: 480px;
     }
-    .container {
-        height: 2765px;
-    }
     .slider-imge {
         width: 600px;
     }
@@ -135,9 +129,6 @@
 
 /*Small Tablet*/
 @media (max-width: 541px) {
-    .container {
-        height: 2735px;
-    }
     .search-input {
         width: 420px;
     }
@@ -162,9 +153,7 @@
 
 /* Nokia N9 */
 @media (max-width: 481px) {
-    .container {
-        height: 2850px;
-    }
+
 }
 
 /* Mobile 430px*/
@@ -180,9 +169,6 @@
         width: 430px;
         height: 150px;
     }
-    .container {
-        height: 2860px;
-  }
 }
 
 
@@ -199,9 +185,6 @@
         width: 425px;
         height: 150px;
     }
-    .container {
-        height: 2860px;
-    }
 }
 
 /* Iphone 6,7,8, plus*/
@@ -211,9 +194,6 @@
     }
     .search-input {
         width: 300px;
-    }
-    .container {
-        height: 2850px;
     }
     .slider {
         width: 100%;
@@ -233,9 +213,6 @@
 }
 /* Pixel*/
 @media (max-width: 412px) {
-    .container {
-        height: 2870px;
-    }
    .slider-imge {
     width: 411px;
     height: auto;
@@ -256,9 +233,6 @@
     .search-input {
         width: 260px;
     }
-    .container {
-        height: 2960px;
-    }
     .slider {
         width: 100%;
         height: 160px;
@@ -278,16 +252,10 @@
         width: 400px;
         height: auto;
     }
-    .container {
-        height: 2880px;
-    }
 }
 
 /*Nexus 4 */
 @media (max-width: 385px) {
-    .container {
-        height: 2940px;
-    }
     .slider-imge {
         width: 384px;
     }
@@ -298,16 +266,11 @@
     .slider-imge {
         width: 375px;
     }
-    .container {
-        height: 2960px;
-    }
 }
 
 /*Galaxy S5, Moto G4*/
 @media (max-width: 361px) {
-    .container {
-        height: 3070px;
-    }
+
     .search-input {
         width: 250px;
     }
@@ -320,9 +283,7 @@
 
 /* Iphone 5*/
 @media (max-width: 320px) {
-    .container {
-        height: 3200px;
-    }
+
     .slider {
         width: 100%;
         height: 140px;
